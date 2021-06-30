@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<style media="screen">
+			.lableval{
+				font-size:30px;
+				margin-top:40px;
+			}
+			input text{
+					font-size:30px;
+			}
+		</style>
+		<meta charset="utf-8">
+		<title>Human Activity Recognition</title>
+	</head>
+	<Body style="width:100%;padding:0px;margin:0px;background-color:white">
+		<div class="" style="width:50%; margin-left:25%;background-color:#079e07;height: 120px;color:white;text-align:center;">
+			<h1 style="margin:0px;line-height:150px; color: black">Human Activity Recognition </h1>
+		</div>
+		<div class="" style="margin-left:25%; width:50%;text-align:center;background-color: #079e07">
+			<form action="{{ url_for('home_submit')}}" method='POST'>
+			<span class="lableval">Body_acc_x</span><input type="text" name="1" value="" style="margin-left:30px;" id="value1"><br><br>
+		  <span class="lableval">Body_acc_y</span><input type="text" name="2" value="" style="margin-left:30px;" id="value2"><br><br>
+			<span class="lableval">Body_acc_z</span><input type="text" name="3" value="" style="margin-left:30px;" id="value3"><br><br>
+			<span class="lableval">Body_gyro_x</span><input type="text" name="4" value="" style="margin-left:30px;" id="value4"><br><br>
+			<span class="lableval">Body_gyro_y</span><input type="text" name="5" value="" style="margin-left:30px;" id="value5"><br><br>
+			<span class="lableval">Body_gyro_z</span><input type="text" name="6" value="" style="margin-left:30px;" id="value6"><br><br>
+			<span class="lableval">Total_acc_x</span><input type="text" name="7" value="" style="margin-left:30px;" id="value7"><br><br>
+			<span class="lableval">Total_acc_y</span><input type="text" name="8" value="" style="margin-left:30px;" id="value8"><br><br>
+			<span class="lableval">Total_acc_z</span><input type="text" name="9" value="" style="margin-left:30px;" id="value9"><br><br><br><br><br><br>
+		<input type="submit" style="width:200px;height:70px;font-size:30px; background-color: green; color: white">
+		</form>
+		</div>
+	</Body>
+</html>
