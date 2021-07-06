@@ -5,9 +5,11 @@
 			.lableval{
 				font-size:30px;
 				margin-top:40px;
+
+	
 			}
 			input text{
-					font-size:30px;
+				font-size:30px;
 			}
 		</style>
 		<meta charset="utf-8">
@@ -19,15 +21,15 @@
 		</div>
 		<div class="" style="margin-left:25%; width:50%;text-align:center;background-color: #079e07">
 			<form action="{{ url_for('home_submit')}}" method='POST'>
-			<span class="lableval">Body_acc_x</span><input type="text" name="1" value="" style="margin-left:30px;" id="value1"><br><br>
-		  <span class="lableval">Body_acc_y</span><input type="text" name="2" value="" style="margin-left:30px;" id="value2"><br><br>
-			<span class="lableval">Body_acc_z</span><input type="text" name="3" value="" style="margin-left:30px;" id="value3"><br><br>
-			<span class="lableval">Body_gyro_x</span><input type="text" name="4" value="" style="margin-left:30px;" id="value4"><br><br>
-			<span class="lableval">Body_gyro_y</span><input type="text" name="5" value="" style="margin-left:30px;" id="value5"><br><br>
-			<span class="lableval">Body_gyro_z</span><input type="text" name="6" value="" style="margin-left:30px;" id="value6"><br><br>
-			<span class="lableval">Total_acc_x</span><input type="text" name="7" value="" style="margin-left:30px;" id="value7"><br><br>
-			<span class="lableval">Total_acc_y</span><input type="text" name="8" value="" style="margin-left:30px;" id="value8"><br><br>
-			<span class="lableval">Total_acc_z</span><input type="text" name="9" value="" style="margin-left:30px;" id="value9"><br><br><br><br><br><br>
+			<span class="lableval">Body_acc_x</span><input type="number" name="1" value="" step = "0.00000001" min = "-5.97433" max = "5.746062" style="width:15em;margin-left:30px;" id="value1"><br><br>
+		 	 <span class="lableval">Body_acc_y</span><input type="number" name="2" value="" step = "0.00000001" min = "-5.97433" max = 5.746062" style="width:15em;margin-left:30px;" id="value2"><br><br>
+			<span class="lableval">Body_acc_z</span><input type="number" name="3" value="" step = "0.00000001" min = "-5.97433" max = "5.746062" style="width:15em;margin-left:30px;" id="value3"><br><br>
+			<span class="lableval">Body_gyro_x</span><input type="number" name="4" value="" step = "0.00000001" min = "-5.97433" max = "5.746062" style="width:15em;margin-left:30px;" id="value4"><br><br>
+			<span class="lableval">Body_gyro_y</span><input type="number" name="5" value="" step = "0.00000001" min = "-5.97433" max = "5.746062" style="width:15em;margin-left:30px;" id="value5"><br><br>
+			<span class="lableval">Body_gyro_z</span><input type="number" name="6" value="" step = "0.00000001" min = "-5.97433" max = "5.746062" style="width:15em;margin-left:30px;" id="value6"><br><br>
+			<span class="lableval">Total_acc_x  </span><input type="number" name="7" value="" step = "0.00000001" min = "-5.97433" max = "5.746062" style="width:15em;"margin-left:30px;" id="value7"><br><br>
+			<span class="lableval">Total_acc_y</span><input type="number" name="8" value="" step = "0.00000001" min = "-5.97433" max = "5.746062" style="width:15em;margin-left:30px;" id="value8"><br><br>
+			<span class="lableval">Total_acc_z</span><input type="number" name="9" value="" step = "0.00000001" min = "--5.97433" max = "5.746062" style="width:15em;margin-left:30px;" id="value9"><br><br><br><br><br><br>
 		<input type="submit" style="width:200px;height:70px;font-size:30px; background-color: green; color: white">
 		</form>
 		</div>
